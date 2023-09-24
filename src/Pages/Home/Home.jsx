@@ -5,6 +5,7 @@ import FeaturedProducts from '../../components/FeaturedProducts'
 import CardsWala from '../../components/CardsWala'
 import AdsWala from '../../components/AdsWala'
 import DealWala from '../../components/DealWala'
+import Cardsapiwala from '../../components/Cardsapiwala'
 
 
 
@@ -26,20 +27,14 @@ const Home = () => {
         <div>
           <FeaturedProducts />
         </div>
-
-        <div className='flex flex-wrap justify-evenly align-middle gap-6 '>
-         <CardsWala />
-         <CardsWala />
-         <CardsWala />
-         <CardsWala />
-         <CardsWala />
-         <CardsWala />
+        <div>
+         <Cardsapiwala />
         </div>
       </div>
       <div className='w-full'>
     <AdsWala />
       </div>
-      <div className='w-[90vw] mx-auto  lg:mt-24 sm:mt-28'>
+      <div className='w-[90vw] mx-auto  lg:mt-24 sm:mt-28 '>
       <DealWala />
       </div>
     </>

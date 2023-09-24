@@ -15,6 +15,7 @@
        background-position-x: center;
        background-repeat: no-repeat;
        position: relative;
+       scroll-behavior: smooth;
 }
 .heros-text{
        position: relative;
@@ -44,7 +45,7 @@
 .deal-custom-image{
        background-image: url(./assets/orange-deal.jpg);
        background-repeat: no-repeat;
-       background-size: contain;  
+       background-size: contain;
      
         
 }
@@ -52,18 +53,18 @@
        background-image: url(./assets/b10.jpg);
        background-repeat: no-repeat;
        background-size: contain; 
+       
       
 }
-/* .xyz-c{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-
-
-} */
+.bg-products-banner{
+       background-image: url(./assets/productsbanner.jpg);
+}
 /************************************ Media-query *****************************************************/
 
 @media screen and (max-width:425px) {
+       .custom-hidden{
+              display: none;
+       }
        .heros-text{
               position: relative;
               top: 5vh;
