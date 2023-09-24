@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap');
+*{
+       padding:0;
+       margin:0;
+       box-sizing: border-box;
+       font-family: 'Montserrat', sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-heros-section{
+       background-image: url(./assets/heroimage.png);
+       background-size: 100%;
+       background-position-x: center;
+       background-repeat: no-repeat;
+       position: relative;
+}
+.heros-text{
+       position: relative;
+       top: 30vh;
+       left: 10vw;
+       width: 40vw;
+}
+.trade-heading{
+       font-weight: 800;
+       font-size: 1rem;
+}
+.super-main-heading{
+       font-size: 3.75rem;
+       max-width: 80vw;
+       line-height: 10vh;
+       font-weight: 700;
+}
+.heading-deal{
+       font-weight: 800;
+       line-height: 2.5rem;
+}
+.background-custom-image{
+       background-image: url(./assets/adsbanner.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+.deal-custom-image{
+       background-image: url(./assets/orange-deal.jpg);
+       background-repeat: no-repeat;
+       background-size: contain;  
+     
+        
+}
+.deal-custom-image1{
+       background-image: url(./assets/b10.jpg);
+       background-repeat: no-repeat;
+       background-size: contain; 
+      
+}
+/* .xyz-c{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+
+} */
+/************************************ Media-query *****************************************************/
+
+@media screen and (max-width:425px) {
+       .heros-text{
+              position: relative;
+              top: 5vh;
+              left: 5vw;
+              width: 80vw;
+       }
+       
+       .trade-heading{
+              font-weight: 800;
+              font-size: 0.7rem;
+       }
+       .super-main-heading{
+              font-size: 1.1rem;
+              width: 70% !important;
+              line-height: 4vh;
+              font-weight: 500;
+              margin-bottom: 4px;
+              /* border: 1px solid red; */
+       }
+       .heading-deal{
+              font-weight: 450;
+              line-height: 1rem;
+              width: 70% !important;
+              font-size: 0.7rem;
+
+       }
+       .custom-btn{
+        padding-block: 6px !important ; 
+        padding-inline: 6px; 
+        margin-top: 4px;    
+       }
+       .custom-height{
+           
+              height: 40vh !important;
+       }
+      
+}
+@media screen and (min-width:1024px) {
+       .minicard-custom-margin{
+              margin-top: 60px;
+              /* background-color: red; */
+       }
+}
