@@ -31,8 +31,8 @@ const Home = () => {
          <Cardsapiwala />
         </div>
       </div>
-      <div className='w-full'>
-    <AdsWala />
+      <div className='w-full lg:mt-5'>
+    <AdsWala homeheading="Up to 70% Off - All t-Shirts & Accesories"/>
       </div>
       <div className='w-[90vw] mx-auto  lg:mt-24 sm:mt-28 '>
       <DealWala />

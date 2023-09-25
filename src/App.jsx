@@ -8,6 +8,7 @@ import MyNavbar from './Components/MyNavbar';
 import { Route, Routes } from "react-router-dom";
 import MyFooter from './components/MyFooter';
 import SingleProducts from './Pages/SingleProducts.jsx/SingleProducts';
+import Newsletter from './components/Newsletter';
 function App() {
   return (
     <>
@@ -20,6 +21,9 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<Pagenotfound />} />
       </Routes>
+      <div>
+        <Newsletter />
+      </div>
       <div className='mt-2'>
       <MyFooter />
       </div>

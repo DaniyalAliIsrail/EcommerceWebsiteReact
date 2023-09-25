@@ -4,6 +4,7 @@
        margin:0;
        box-sizing: border-box;
        font-family: 'Montserrat', sans-serif;
+     
 }
 @tailwind base;
 @tailwind components;
@@ -40,7 +41,7 @@
 .background-custom-image{
        background-image: url(./assets/adsbanner.jpg);
        background-repeat: no-repeat;
-       background-size: cover;
+       background-size: cover; 
 }
 .deal-custom-image{
        background-image: url(./assets/orange-deal.jpg);

@@ -3,7 +3,6 @@ import { Link, NavLink } from 'react-router-dom'
 const MyNavbar = () => {
   return (
   <>
-  
 <nav className=" bg-[#e3e6f3]  top-0 sticky z-20">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <Link  className="flex items-center">
