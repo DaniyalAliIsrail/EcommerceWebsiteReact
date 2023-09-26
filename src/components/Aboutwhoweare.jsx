@@ -5,36 +5,36 @@ import MiniCards from './MiniCards'
 const Aboutwhoweare = () => {
   return (
    <>
-   <>
-  <div className=" pt-12 px-6 md:px-20 bg-hero  ">
-    <div className="flex  gap-6 md:flex-row items-center max-w-8xl">
-    <div className="w-full md:w-1/2 lg:h-[68vh]  flex justify-center md:justify-end ">
-        <img src={ABOUTBANNER} />
-      </div>
-      <div className="w-full md:w-1/2 lg:pr-32 ">
-        <h2 className="text-4xl lg:text-5xl text-center md:text-left text-blue-900 leading-tight font-medium">
-        Who We Are ?
-        </h2>
-        <h3 className="mt-6 md:mt-10 text-md lg:text-xl text-center md:text-left text-gray-700 font-light tracking-wider leading-relaxed">
-          Help Scout is designed with your customers in mind. Provide email and
-          live chat with a personal touch, and deliver help content right where
-          your customers need it, all in one place, all for one low price.
-        </h3>
-       
-      </div>
+ <section className="text-gray-600 body-font">
+  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+  <div className="lg:max-w-lg lg:px-5 lg:w-full md:w-1/2 w-5/6">
+      <img
+        className="object-cover object-center rounded"
+        alt="hero"
+        src={ABOUTBANNER}
+      />
     </div>
+    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+        Before they sold out
+        <br className="hidden lg:inline-block" />
+        readymade gluten
+      </h1>
+      <p className="mb-8 leading-relaxed">
+        Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
+        plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk
+        tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard
+        chambray Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, exercitationem..
+      </p>
+    
+    </div>
+    
   </div>
-  <div className='flex justify-around items-center lg:mt-5'>
-    <MiniCards />
-    <MiniCards />
-    <MiniCards />
-    <MiniCards />
-    <MiniCards />
+</section>
 
-
-  </div>
   
-</>
+  
+
 
    </>
   )

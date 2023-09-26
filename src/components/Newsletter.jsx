@@ -3,42 +3,36 @@ import React from 'react'
 const Newsletter = () => {
   return (
     <>
-    <div className="w-full px-2 py-14 sm:px-6 lg:py-2 lg:px-4 mt-4">
-  <div
-    className="bg-[#e3e6f3] px-6 py-6 rounded-lg md:py-12 md:px-12 lg:py-14 lg:px-16 xl:flex xl:items-center"
-  >
-    <div className="xl:w-0 xl:flex-1">
-      <h2 className="text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl sm:leading-9">
-        Get the latest updates!
-      </h2>
-      <p className="mt-3 max-w-3xl text-lg leading-6 text-gray-900">
-        Subscribe to our newsletter and stay updated on the latest developments.
-      </p>
-    </div>
-    <div className="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
-      <div id="mc_embed_signup">
-        <form className="sm:flex">
+    <div className="bg-[#e3e6f3] ">
+  <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
+    <div className="px-6 py-6 md:px-12 lg:flex lg:items-center lg:px-16">
+      <div className="lg:flex-1 xl:w-0">
+        <h2 className="text-2xl font-extrabold tracking-tight text-black sm:text-3xl">
+          Email Newsletter
+        </h2>
+        <p className="mt-3 max-w-3xl text-lg leading-6 text-indigo-200">
+          Sign up for our email newsletter to stay up to date.
+        </p>
+      </div>
+      <div className="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
+        <form className="sm:flex" id="revue-form" >
           <input
-            className="required rounded-md w-full px-4 py-2 email"
-            id="mce-EMAIL"
-            placeholder="Enter your email"
-            required=""
             type="email"
-            defaultValue=""
-            aria-required="true"
+            autoComplete="email"
+            required=""
+            className="w-full rounded-md border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-0"
+            placeholder="Enter your email"
           />
-          <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-            <button
-              className="w-full flex items-center justify-center px-5 py-3 text-base leading-6
-                      font-medium rounded-md text-white bg-indigo-500 focus:ring
-                      hover:bg-indigo-400 focus:outline-none focus:bg-indigo-400
-                      transition duration-150 ease-in-out"
-              type="submit"
-            >
-              Subscribe
-            </button>
-          </div>
+          <button
+            type="submit" retun="false"
+            className="mt-3 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-500 px-5 py-3 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-0 sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
+          >
+            Subscribe
+          </button>
         </form>
+        <p className="mt-3 text-sm text-indigo-200">
+          We will never send any spam emails. Promise.
+        </p>
       </div>
     </div>
   </div>
