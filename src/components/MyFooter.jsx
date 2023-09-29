@@ -26,7 +26,7 @@ const MyFooter = () => {
   return (
     <>
     <footer className="relative w-full">
-      <div className="mx-auto w-full max-w-8xl px-8 sm:mt-10 bg-[#e3e6f3] ">
+      <div className="mx-auto w-full px-8 sm:mt-10 bg-[#e3e6f3] ">
         <div className="mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-4">
           {SITEMAP.map(({ title, links }, key) => (
             <div key={key} className="w-full">

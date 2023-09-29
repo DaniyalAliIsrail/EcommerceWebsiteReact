@@ -4,15 +4,16 @@ import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import Pagenotfound from './Pages/PageNotFound/Pagenotfound';
 import Products from './Pages/Products/Products';
-import MyNavbar from './Components/MyNavbar';
 import { Route, Routes } from "react-router-dom";
 import MyFooter from './components/MyFooter';
 import SingleProducts from './Pages/SingleProducts.jsx/SingleProducts';
 import Newsletter from './components/Newsletter';
+import { NavbarSimple } from './components/Mynav';
 function App() {
   return (
     <>
-      <MyNavbar />
+      <NavbarSimple  />
+      
       <Routes>
         <Route index element={<Home />} />
         <Route path='/products' element={<Products />} />
@@ -24,7 +25,7 @@ function App() {
       <div>
         <Newsletter />
       </div>
-      <div className='mt-2'>
+      <div className='mt-2 mx-auto'>
       <MyFooter />
       </div>
     </>

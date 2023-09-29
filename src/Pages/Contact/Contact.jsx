@@ -1,11 +1,19 @@
-import React from 'react'
+import React from 'react';
+import ContactComponents from '../../components/ContactComponents'
+import Contactcomponents2 from '../../components/Contactcomponents2'
 
 
 const Contact = () => {
   return (
-
     <>
-    <h1>contact page</h1>
+    <div className='w-[90vw] mx-auto'>
+    <ContactComponents />
+    </div>
+    <div>
+      <Contactcomponents2 />
+    </div>
+   
+    
     </>
   )
 }

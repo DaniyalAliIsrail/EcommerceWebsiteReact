@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AdsWala = ({homeheading , homedesc }) => {
+const AdsWala = ({homeheading , homedesc ,bannerImage}) => {
        return (
               <>
                      <div className='lg:w-full h-52 sm:w-full   background-custom-image text-white flex justify-center items-center text-center p-5'>

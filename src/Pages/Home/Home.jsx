@@ -23,7 +23,7 @@ const Home = () => {
       <div className='width-full'>
         <HerosSection />
       </div>
-      <div className='w-[90vw] mx-auto'>
+      <div className='w-[95vw] mx-auto'>
         <div className='flex flex-wrap justify-evenly align-middle gap-2 minicard-custom-margin'>
           <MiniCards img1={MC1} />
           <MiniCards img1={MC2} />

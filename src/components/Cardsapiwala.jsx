@@ -28,7 +28,8 @@ const Cardsapiwala = () => {
               }
        }
        return (
-              <> <div>
+              <> 
+              <div className='p-2'>
                      <div className='flex justify-around items-center flex-wrap gap-3 w-[90vw] mx-auto '>
                             {
                                    ProductsData.map((value, index) => {
